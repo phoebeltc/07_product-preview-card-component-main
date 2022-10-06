@@ -1,0 +1,94 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+//Font family 
+$montserrat: 'Montserrat', sans-serif;
+$fraunces: 'Fraunces', serif;
+
+//colors 
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$dark-blue: hsl(212, 21%, 14%);
+$dark-grey-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+$mynewcolor:#77cccc;
+
+
+body { 
+    background-color: $cream;
+}
+
+.container {
+    height: 98vh;
+}
+
+.card { 
+    background-color: $white;
+    border:none;
+    width: 600px;
+}
+
+p {
+    font-family: $montserrat;
+    text-transform: uppercase;
+    color: $dark-grey-blue;
+    font-size: 12px;
+    letter-spacing: 4.5px;
+}
+
+.topic {
+    font-family: $fraunces;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+
+.content {
+    font-family: $montserrat;
+    font-size: 14px;
+    line-height: 23px;
+    color: $dark-grey-blue;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+}
+
+
+.price-line {
+    margin-bottom: 18px;
+}
+
+.price {
+    font-family: $fraunces;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: $dark-cyan;
+}
+
+.preprice {
+    font-family: $montserrat;
+    font-size: 14px;
+    color: $dark-grey-blue;
+    text-decoration: line-through;
+}
+
+.btn-primary {
+    background-color: $dark-cyan;
+    border: none;
+    font-family: $montserrat;
+    font-weight: 700;
+    color: $white;
+    padding: 15px 0;
+}
+
+.btn-primary:hover {
+    background-color: $dark-blue !important;
+    border-color: $dark-blue !important;
+    background-image: none !important;
+    border: 0 !important;
+}
+
+svg {
+    margin-right: 10px;
+}
